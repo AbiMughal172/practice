@@ -1,0 +1,18 @@
+<h4 class="text-center">Add Todos</h4>
+<div class="card bg-light">
+<form (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+        <label for="sno" >Serial No</label>
+        <input type="number" [(ngModel)]="sno" class="form-control" name="sno">
+       </div>
+    <div class="mb-3">
+      <label for="Title" >Title</label>
+      <input type="text" [(ngModel)]="title" class="form-control" name="title">
+     </div>
+    <div class="mb-3">
+      <label for="desc" >Descrition</label>
+      <input type="text" [(ngModel)]="desc" class="form-control" name="desc">
+    </div>
+    <button type="submit" class="btn btn-primary">Add Todo</button>
+  </form>
+</div>

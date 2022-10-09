@@ -1,0 +1,21 @@
+.card{
+    text-align: center;
+    margin-top: 20px;
+    background-color:honeydew ;
+    width: 500px;
+    margin-left: 380px;
+}
+.btn{
+    width: 60px;
+    margin-bottom: 20px;
+    margin-left: 220px;
+}
+.strike{
+    text-decoration: line-through;
+}
+.form-check-input{
+    margin-left: 200px;
+}
+.form-check-label{
+    margin-right: 200px;
+}
